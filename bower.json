@@ -1,0 +1,20 @@
+{
+  "name": "mimic-reddit",
+  "description": "a recreation of a basic version of reddit, with similar functionality",
+  "main": "",
+  "authors": [
+    "Max Scher"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
