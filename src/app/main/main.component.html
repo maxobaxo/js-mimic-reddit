@@ -1,10 +1,3 @@
-<div *ngFor="let post of posts">
+<div *ngFor="let post of posts" (click)="goToDetailPage(post)">
   <h3>{{post.title}} | {{post.author}}</h3>
-  <!-- <li><a routerLink="funny">r/funny</a></li>
-  <li><a routerLink="woahdude">r/woahdude</a></li>
-  <li><a routerLink="facepalm">r/facepalm</a></li>
-  <li><a routerLink="worldnews">r/worldnews</a></li>
-  <li><a routerLink="natureisfuckinglit">r/NatureIsFuckingLit</a></li>
-  <li><a routerLink="muckingfagical">r/MuckingFagical</a></li>
-  <li><a routerLink="science">r/science</a></li> -->
 </div>

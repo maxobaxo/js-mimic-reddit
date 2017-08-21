@@ -18,4 +18,7 @@ export class MainComponent implements OnInit {
     this.posts = this.postService.getPosts();
   }
 
+  goToDetailPage(clickedPost: Post) {
+    this.router.navigate(['posts', clickedPost.id]);
+  }
 }

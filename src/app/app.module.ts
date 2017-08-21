@@ -13,6 +13,7 @@ import { WorldnewsComponent } from './worldnews/worldnews.component';
 import { NatureisfuckinglitComponent } from './natureisfuckinglit/natureisfuckinglit.component';
 import { MuckingFagicalComponent } from './mucking-fagical/mucking-fagical.component';
 import { ScienceComponent } from './science/science.component';
+import { PostDetailComponent } from './post-detail/post-detail.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { ScienceComponent } from './science/science.component';
     WorldnewsComponent,
     NatureisfuckinglitComponent,
     MuckingFagicalComponent,
-    ScienceComponent
+    ScienceComponent,
+    PostDetailComponent
   ],
   imports: [
     BrowserModule,
